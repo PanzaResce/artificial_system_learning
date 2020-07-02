@@ -73,8 +73,8 @@ end
 
 to wander
   fd 1
-  rt random turn_angle
-  lt random turn_angle
+  rt random turn_angle + 1
+  lt random turn_angle + 1
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
